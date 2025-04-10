@@ -44,9 +44,6 @@ $wingetApps = @(
     "Git.Git",
     "Microsoft.WindowsTerminal",
     "Microsoft.PowerShell",
-    "Microsoft.Teams",
-    "Zoom.Zoom",
-    "Discord.Discord",
     "Spotify.Spotify",
     "Adobe.Acrobat.Reader.64-bit",
     "AnyDesk.AnyDesk",
@@ -57,7 +54,14 @@ $wingetApps = @(
     "JetBrains.IntelliJIDEA.Ultimate",
     "JetBrains.Rider",
     "JetBrains.DataGrip",
-    "ankurk91.GoogleChatElectron"
+    "Tonec.InternetDownloadManager",
+    "Microsoft.Office",
+    # .NET Core SDK and Runtime
+    "Microsoft.DotNet.SDK.9",
+    "Microsoft.DotNet.SDK.8",
+    "Microsoft.DotNet.SDK.3.1",
+    "Notepad++.Notepad++",
+    "Rambox.Rambox.Community"
 )
 
 # List of software to install using Chocolatey
@@ -71,7 +75,10 @@ $chocoApps = @(
     "putty",
     "filezilla",
     "winrar",
-    "vlc"
+    "vlc",
+    # .NET Core SDK and Runtime (as backup)
+    "dotnetcore-sdk",
+    "dotnetcore-runtime"
 )
 
 # Install software using winget

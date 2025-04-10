@@ -37,9 +37,6 @@ $extensions = @(
     "ms-ossdata.vscode-postgresql",
     "mtxr.sqltools",
     
-    # Testing
-    "testspace.testspace",
-    "hbenl.vscode-test-explorer"
 )
 
 # Install each extension
